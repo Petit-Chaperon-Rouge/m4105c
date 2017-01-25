@@ -1,0 +1,20 @@
+#premier {
+	background-color: #3498db;
+}
+
+#second {
+	background-color: #ecf0f1;
+}
+
+#troisieme {
+	background-color: #c0392b;
+}
+
+img {
+	/*
+	width: 25%;
+	max-width: 250px;
+	*/
+	float: right;
+	border-radius: 10px 0px 15px 15px;
+}
