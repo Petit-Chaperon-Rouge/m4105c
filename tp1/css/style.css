@@ -10,11 +10,83 @@
 	background-color: #c0392b;
 }
 
-img {
-	/*
-	width: 25%;
-	max-width: 250px;
-	*/
+#troisieme img {
+	width: 300px;
+	max-width: 100%;
 	float: right;
-	border-radius: 10px 0px 15px 15px;
+	border-radius: 150px 150px 150px 150px;
 }
+
+/****** Formulaire ******/
+
+
+form label	{
+
+		color: #069;
+		display: block;
+		padding-top: 15px;
+		padding-bottom: 5px;		
+
+}
+
+form select, form option, form input, form textarea	{
+
+		display: inline-block;
+		color: #000000;
+		padding: 5px;
+		border: 1px #51c3fa solid;
+		width: 400px;
+
+}
+
+.erreur	{
+
+	border: 1px #E80000 solid;
+
+}
+
+
+form select	{
+
+		width: 100%;
+		max-width: 412px;
+
+}
+
+form input	{
+
+		width: 95%;
+		max-width: 412px;
+
+}
+
+form .nom  input {
+
+		width: 45%;
+		max-width: 192px;
+
+}
+
+form textarea	{
+
+		height: 100px;
+		width: 95%;
+		max-width: 412px;
+
+}
+
+form .bouton input	{
+
+		background: linear-gradient(to bottom right, #51c3fa, #09c);
+		width: 100%;
+		max-width: 412px;
+		margin-top: 20px;
+
+}
+
+	form .bouton input:hover	{
+
+			background: #09c;
+
+
+	}
