@@ -1,3 +1,10 @@
+
+body {
+	width: 98%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
 #premier {
 	background-color: #3498db;
 }
@@ -11,10 +18,10 @@
 }
 
 #troisieme img {
-	width: 300px;
-	max-width: 100%;
+	width: 100%;
+	max-width: 310px;
 	float: right;
-	border-radius: 150px 150px 150px 150px;
+	border-radius: 0px 0px 00px 150px;
 }
 
 /****** Formulaire ******/
@@ -48,8 +55,8 @@ form select, form option, form input, form textarea	{
 
 form select	{
 
-		width: 100%;
-		max-width: 412px;
+		width: 98%;
+		max-width: 424px;
 
 }
 
@@ -63,7 +70,7 @@ form input	{
 form .nom  input {
 
 		width: 45%;
-		max-width: 192px;
+		max-width: 198px;
 
 }
 
