@@ -5,8 +5,10 @@ body {
 	margin: 0 auto;
 }
 
-#premier, #second, #troisieme {
-	padding-left: 5px;
+p {
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 #premier {
@@ -15,6 +17,7 @@ body {
 
 #second {
 	background-color: #ecf0f1;
+	height: 100%;
 }
 
 #troisieme {
@@ -23,9 +26,8 @@ body {
 
 #troisieme img {
 	width: 100%;
-	max-width: 310px;
+	max-width: 250px;
 	float: right;
-	border-radius: 0px 0px 00px 150px;
 }
 
 /****** Formulaire ******/
