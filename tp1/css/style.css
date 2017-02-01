@@ -5,6 +5,10 @@ body {
 	margin: 0 auto;
 }
 
+#premier, #second, #troisieme {
+	padding-left: 5px;
+}
+
 #premier {
 	background-color: #3498db;
 }
