@@ -141,7 +141,7 @@ form .bouton input	{
 
 
 @media only screen
-  and (max-device-width : 540px) {
+  and (max-width : 540px) {
 
  	#troisieme img {
  	 	width: 100%;
