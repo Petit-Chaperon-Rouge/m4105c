@@ -1,3 +1,4 @@
+html {font-size:100%}
 
 body {
 	width: 98%;
@@ -9,97 +10,159 @@ p {
 	padding-left: 10px;
 	padding-top: 5px;
 	padding-bottom: 5px;
+	padding-right: 10px;
+	text-align: center;
 }
 
+h1 {
+	text-align: center;
+	font-size: 1.6rem;
+}
+
+
+/****** Header ******/
+
+header {
+	width: 300px;
+	margin: 0 auto;
+}
+
+header img {
+	width: 300px;
+}
+
+
+/****** Texte ******/
+
 #premier {
-	background-color: #3498db;
+	/*background-color: #3498db;*/
+	background: url("../img/bg-tr.png") fixed no-repeat;
+	background-size: cover;
 }
 
 #second {
-	background-color: #ecf0f1;
-	height: 100%;
+	/*background-color: #ecf0f1;*/
+	background: url("../img/bg-tr.png") fixed no-repeat;
+	background-size: cover;
 }
 
 #troisieme {
-	background-color: #c0392b;
+	/*background-color: #c0392b;*/
+	display: inline-block;
+	background: url("../img/bg-tr.png") fixed no-repeat;
+	background-size: cover;
 }
 
 #troisieme img {
 	width: 100%;
 	max-width: 250px;
 	float: right;
+	padding-left: 5px;
 }
+
+
+/****** Table ******/
+
+table {
+	margin: 15px auto;
+	border-collapse: collapse;
+	border: 2px solid #6495ed;
+}
+
+table th {
+	border: 1px solid #6495ed;
+	width: 20%;
+	padding: 5px;
+	background-color: #D0E3FA;
+}
+
+table td {
+	border: 1px solid #6495ed;
+	text-align: center;
+	padding: 5px;
+}
+
 
 /****** Formulaire ******/
 
-
 form label	{
-
 		color: #069;
 		display: block;
 		padding-top: 15px;
-		padding-bottom: 5px;		
-
+		padding-bottom: 5px;
 }
 
 form select, form option, form input, form textarea	{
-
 		display: inline-block;
 		color: #000000;
 		padding: 5px;
 		border: 1px #51c3fa solid;
 		width: 400px;
-
 }
-
-.erreur	{
-
-	border: 1px #E80000 solid;
-
-}
-
 
 form select	{
-
 		width: 98%;
 		max-width: 424px;
-
 }
 
 form input	{
-
 		width: 95%;
 		max-width: 412px;
-
 }
 
 form .nom  input {
-
 		width: 45%;
 		max-width: 198px;
-
 }
 
 form textarea	{
-
 		height: 100px;
 		width: 95%;
 		max-width: 412px;
-
 }
 
 form .bouton input	{
-
 		background: linear-gradient(to bottom right, #51c3fa, #09c);
 		width: 100%;
 		max-width: 412px;
 		margin-top: 20px;
-
 }
 
 	form .bouton input:hover	{
-
 			background: #09c;
-
-
 	}
+
+
+
+
+@media only screen
+  and (max-device-width : 540px) {
+
+ 	#troisieme img {
+ 	 	width: 100%;
+ 	 	max-width: 100%;
+ 	 	float: none;
+ 	 	padding-left: 0px;
+ 	}
+
+	/****** Table ******/
+
+	table {
+		width: 100%;
+		border-top: 1px;
+	}
+
+	table th {
+		display: block;
+		width: auto;
+		border-left: 0px;
+		border-right: 0px;
+		border-top: 2px solid #6495ed;
+	}
+
+	table td {
+		display: block;
+		border: 1px solid #c4d9ff;
+	}
+
+}
