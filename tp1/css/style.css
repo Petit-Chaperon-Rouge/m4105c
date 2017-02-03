@@ -130,6 +130,7 @@ form .bouton input	{
 		width: 100%;
 		max-width: 412px;
 		margin-top: 20px;
+		margin-bottom: 20px;
 }
 
 	form .bouton input:hover	{
