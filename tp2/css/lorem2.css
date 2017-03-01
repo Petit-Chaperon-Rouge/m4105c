@@ -14,7 +14,7 @@ header 	{
 	border-bottom: 2px solid #5293AF;
 	height: 75px;
 	line-height: 75px;
-  margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 header #menu, header #phone {
@@ -62,7 +62,13 @@ header ul li a	{
 		border-bottom: 13px solid #5293AF;
 	}
 
-		header ul li:first-child a{	border-left: 0px; }
+	header ul li:first-child a { border-left: 0px; }
+
+header .recherche {
+	padding: 5px;
+}
+
+
 
 
 
@@ -103,6 +109,7 @@ header ul li a	{
 
 #galerie .img_gallery {
 	display: inline-block;
+	vertical-align: top;
 	width: 24%;
 	margin: 0 auto;
 	margin-left: 5px;
@@ -110,9 +117,10 @@ header ul li a	{
 }
 
 #galerie .img_gallery .sous{
-  width: 50%;
+	width: 50%;
 	min-width: 220px;
 	margin: 0 auto;
+	min-height: 300px;
 }
 
 #galerie .img_gallery img {
@@ -132,6 +140,7 @@ header ul li a	{
 
 
 /****** Corps2 ******/
+
 
 #corps2 {
 	width: 98%;
@@ -160,25 +169,26 @@ header ul li a	{
 
 /****** Formulaire ******/
 
+
 form {
 	width: 100%;
 	margin: 0 auto;
 }
 
-form label	{
-		color: #069;
-		display: block;
-		padding-top: 15px;
-		padding-bottom: 5px;
+form label {
+	color: #069;
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 5px;
 }
 
 form select, form option, form input, form textarea	{
-		display: inline-block;
-		color: #000000;
-		padding: 5px;
-		border: 1px #5293AF solid;
-		width: 400px;
-		height: 20px;
+	display: inline-block;
+	color: #000000;
+	padding: 5px;
+	border: 1px #5293AF solid;
+	width: 400px;
+	height: 20px;
 }
 
 form table{
@@ -186,37 +196,39 @@ form table{
 }
 
 form select	{
-		width: 98%;
+	width: 98%;
 }
 
 form input	{
-		width: 95%;
+	width: 95%;
 }
 
-form #photo	input{
-		border-color: white;
+form #photo input{
+	border-color: white;
 }
 
 form textarea	{
-		height: 50px;
-		width: 95%;
-		resize: none;
+	height: 50px;
+	width: 95%;
+	resize: none;
 }
 
 form .bouton input	{
-		background: linear-gradient(to bottom right, #51c3fa, #5293AF);
-		width: 30%;
-		margin-top: 20px;
-		margin-bottom: 20px;
-		margin-left: 60%;
-		height:auto;
+	background: linear-gradient(to bottom right, #51c3fa, #5293AF);
+	width: 30%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 60%;
+	height:auto;
 }
 
 	form .bouton input:hover	{
-			background: #09c;
+		background: #09c;
 	}
 
+
 /****** Footer ******/
+
 
 footer 	{
 	border-top: 2px solid #5293AF;
@@ -235,10 +247,11 @@ footer p {
 
 @media only screen
 	and (min-device-width : 540px)
-  and (max-device-width : 940px) {
+	and (max-device-width : 940px) {
 
 
 		/****** Header ******/
+
 
 		header 	{
 			height: 185px;
@@ -267,7 +280,7 @@ footer p {
 		header ul	{
 			margin-top: 0px;
 			margin-right: 20px;
-			padding-left: 20px;
+			padding-left: 0px;
 		}
 
 		header ul li a:hover	{
@@ -276,41 +289,42 @@ footer p {
 		}
 
 
-			/****** Bannière ******/
+		/****** Bannière ******/
 
 
-			#banniere {
-				margin: 0 auto;
-				margin-top: 0px;
-				margin-bottom: 10px;
-				width: 100%;
-			}
+		#banniere {
+			margin: 0 auto;
+			margin-top: 0px;
+			margin-bottom: 10px;
+			width: 100%;
+		}
 
-			#banniere img {
-				width: 100%;
-			}
+		#banniere img {
+			width: 100%;
+		}
 
 
-			/****** Galerie ******/
+		/****** Galerie ******/
 
-			#galerie .img_gallery {
-				width: 49%;
-				margin: 1% auto;
-			}
+		#galerie .img_gallery {
+			width: 49%;
+			margin: 1% auto;
+		}
 
-			#galerie .img_gallery .sous{
-				min-width: 160px;
-			}
+		#galerie .img_gallery .sous{
+			min-width: 160px;
+			min-height: 0px;
+		}
 
-			/****** Corps2 ******/
+		/****** Corps2 ******/
 
-			#corps2 {
-				width: 100%;
-			}
+		#corps2 {
+			width: 100%;
+		}
 
-			#formulaire {
-				padding-left: 2px;
-			}
+		#formulaire {
+			padding-left: 2px;
+		}
 
 
 }
@@ -321,7 +335,7 @@ footer p {
 /****************************************/
 
 @media only screen
-  and (max-device-width : 540px) {
+	and (max-device-width : 540px) {
 
 
 		header 	{
@@ -388,6 +402,7 @@ footer p {
 
 		#galerie .img_gallery .sous{
 			min-width: 160px;
+			min-height: 0px;
 		}
 
 
@@ -419,4 +434,4 @@ footer p {
 
 
 
-	}
+}
