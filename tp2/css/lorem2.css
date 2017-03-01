@@ -1,0 +1,422 @@
+body {
+	margin: 0 auto;
+}
+
+h1, h2 {
+	color: #5293AF;
+}
+
+/****** Header ******/
+
+
+header 	{
+	display: block;
+	border-bottom: 2px solid #5293AF;
+	height: 75px;
+	line-height: 75px;
+  margin-bottom: 15px;
+}
+
+header #menu, header #phone {
+	display: none;
+}
+
+header #logo	{
+	width: 250px;
+	float: left;
+	margin-left: 20px;
+}
+
+header #liste-r {
+	float: right;
+	margin-right: 5%;
+}
+
+header ul	{
+	display: inline-block;
+	margin-top: 0px;
+	margin-right: 50px;
+}
+
+header ul li	{
+	width: 100px;
+	display: inline-block;
+	margin-right: -4px;
+}
+
+header ul li a	{
+	background-color: #FFFFFF;
+	display: block;
+	border-left: 1px #000000 solid;
+	color: #222211;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	width: 100%;
+	height: 100%;
+}
+
+	header ul li a:hover	{
+		border-top: 13px solid #5293AF;
+		border-bottom: 13px solid #5293AF;
+	}
+
+		header ul li:first-child a{	border-left: 0px; }
+
+
+
+/****** Bannière ******/
+
+
+#banniere {
+	margin: 0 auto;
+	margin-bottom: 10px;
+	width: 90%;
+}
+
+#banniere img {
+	width: 100%;
+}
+
+/****** Corps1 ******/
+
+#corps1{
+	width: 98%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+#corps1 p{
+	text-align: center;
+}
+
+#corps1 span{
+	text-align: center;
+	display: block;
+}
+
+#galerie {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#galerie .img_gallery {
+	display: inline-block;
+	width: 24%;
+	margin: 0 auto;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+
+#galerie .img_gallery .sous{
+  width: 50%;
+	min-width: 220px;
+	margin: 0 auto;
+}
+
+#galerie .img_gallery img {
+	width: 100%;
+	max-width: 220px;
+	margin: 0 auto;
+}
+
+#galerie .img_gallery h2 {
+	text-align: center;
+}
+
+#galerie .img_gallery p {
+	text-align: center;
+	padding: 5px;
+}
+
+
+/****** Corps2 ******/
+
+#corps2 {
+	width: 98%;
+	margin: auto;
+	height: 570px;
+}
+
+#carte {
+	display: inline-block;
+	width: 50%;
+}
+
+#carte iframe {
+	width: 100%;
+	height: 440px;
+}
+
+#formulaire {
+	display: inline-block;
+	width: 49%;
+	border-left: 2px solid #5293AF;
+	padding-left: 5px;
+	float: right;
+}
+
+
+/****** Formulaire ******/
+
+form {
+	width: 100%;
+	margin: 0 auto;
+}
+
+form label	{
+		color: #069;
+		display: block;
+		padding-top: 15px;
+		padding-bottom: 5px;
+}
+
+form select, form option, form input, form textarea	{
+		display: inline-block;
+		color: #000000;
+		padding: 5px;
+		border: 1px #5293AF solid;
+		width: 400px;
+		height: 20px;
+}
+
+form table{
+	  width: 98%;
+}
+
+form select	{
+		width: 98%;
+}
+
+form input	{
+		width: 95%;
+}
+
+form #photo	input{
+		border-color: white;
+}
+
+form textarea	{
+		height: 50px;
+		width: 95%;
+		resize: none;
+}
+
+form .bouton input	{
+		background: linear-gradient(to bottom right, #51c3fa, #5293AF);
+		width: 30%;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: 60%;
+		height:auto;
+}
+
+	form .bouton input:hover	{
+			background: #09c;
+	}
+
+/****** Footer ******/
+
+footer 	{
+	border-top: 2px solid #5293AF;
+	height: 75px;
+	line-height: 50px;
+}
+
+footer p {
+	text-align: right;
+	padding-right: 10%;
+}
+
+/****************************************/
+/****** Format Tablette/Demi écran ******/
+/****************************************/
+
+@media only screen
+	and (min-device-width : 540px)
+  and (max-device-width : 940px) {
+
+
+		/****** Header ******/
+
+		header 	{
+			height: 185px;
+			line-height: 75px;
+			margin-bottom: 0px;
+		}
+
+		header .centre {
+			width: 250px;
+			margin: 5px auto;
+		}
+
+		header #logo	{
+			width: 100%;
+			float: none;
+			margin-left: 0px;
+		}
+
+		header #liste-r {
+			float: none;
+			margin: 0 auto;
+			width:540px;
+			min-width: 540px;
+		}
+
+		header ul	{
+			margin-top: 0px;
+			margin-right: 20px;
+			padding-left: 20px;
+		}
+
+		header ul li a:hover	{
+			border-top: 13px solid #5293AF;
+			border-bottom: 13px solid #5293AF;
+		}
+
+
+			/****** Bannière ******/
+
+
+			#banniere {
+				margin: 0 auto;
+				margin-top: 0px;
+				margin-bottom: 10px;
+				width: 100%;
+			}
+
+			#banniere img {
+				width: 100%;
+			}
+
+
+			/****** Galerie ******/
+
+			#galerie .img_gallery {
+				width: 49%;
+				margin: 1% auto;
+			}
+
+			#galerie .img_gallery .sous{
+				min-width: 160px;
+			}
+
+			/****** Corps2 ******/
+
+			#corps2 {
+				width: 100%;
+			}
+
+			#formulaire {
+				padding-left: 2px;
+			}
+
+
+}
+
+
+/****************************************/
+/****** Format Téléphone ******/
+/****************************************/
+
+@media only screen
+  and (max-device-width : 540px) {
+
+
+		header 	{
+			height: 75px;
+			line-height: 75px;
+			margin-bottom: 0px;
+		}
+
+		header #menu {
+			display: inline-block;
+			float: left;
+			width: 50px;
+			padding-left: 5%;
+			padding-top: 1%;
+		}
+
+		header #phone {
+			display: inline-block;
+			float: right;
+			width: 50px;
+			padding-right: 5%;
+			padding-top: 1%;
+		}
+
+		header .centre {
+			width: 200px;
+			margin: 15px auto;
+		}
+
+		header #logo	{
+			width: 100%;
+			float: none;
+			margin-left: 0px;
+		}
+
+		header #liste-r {
+			display: none;
+		}
+
+
+		/****** Banniere ******/
+
+
+		#banniere {
+			margin: 0 auto;
+			margin-top: 0px;
+			margin-bottom: 10px;
+			width: 100%;
+		}
+
+		#banniere img {
+			width: 100%;
+		}
+
+
+		/****** Galerie ******/
+
+
+		#galerie .img_gallery {
+			width: 100%;
+			margin: 0 auto;
+			margin-bottom: 20px;
+		}
+
+		#galerie .img_gallery .sous{
+			min-width: 160px;
+		}
+
+
+		/****** Corps2 ******/
+
+		#corps2 {
+			width: 100%;
+			margin: auto;
+			height: auto;
+		}
+
+		#carte {
+			display: block;
+			width: 100%;
+		}
+
+		#carte iframe {
+			width: 100%;
+			height: 440px;
+		}
+
+		#formulaire {
+			display: block;
+			width: 99%;
+			border-left: 0px;
+			padding-left: 5px;
+			float: none;
+		}
+
+
+
+	}
