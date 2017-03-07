@@ -13,7 +13,7 @@
 
 	<header>
 		<img id="menu" src="../img/menu-icon.png">
-		<img id="phone" src="../img/phone-icon.png">
+		<a id="a_phone" href="tel:+33147200001"><img id="phone" src="../img/phone-icon.png"></a>
 		<div class="centre">
 			<img id="logo" src="../img/NKM-logo.png">
 		</div>
@@ -84,46 +84,29 @@
 		<div id="formulaire">
 			<h2>Formulaire</h2>
 			<form novalidate>
-				<table>
-					<tr>
-						<td>
-							<label>Prénom</label>
-						</td>
-						<td>
-							<label>Nom</label>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<INPUT TYPE ="text" VALUE="" placeholder="Prénom" required>
-						</td>
-						<td>
-							<INPUT TYPE ="text" VALUE="" placeholder="Nom" required>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<label>Date de Naissance</label>
-						</td>
-						<td>
-							<label>Ville de Naissance</label>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<INPUT TYPE ="date" VALUE="" required>
-						</td>
-						<td>
-							<INPUT TYPE ="text" VALUE="" placeholder="Ville" required>
-						</td>
-					</tr>
-				</table>
+
+				<div class="petit">
+					<label>Prénom</label>
+						<INPUT TYPE ="text" VALUE="" placeholder="Prénom" required>
+				</div>
+				<div class="petit">
+					<label>Nom</label>
+						<INPUT TYPE ="text" VALUE="" placeholder="Nom" required>
+				</div>
+				<div class="petit">
+					<label>Date de Naissance</label>
+						<INPUT TYPE ="date" VALUE="" required>
+				</div>
+				<div class="petit">
+					<label>Ville de Naissance</label>
+						<INPUT TYPE ="text" VALUE="" placeholder="Ville" required>
+				</div>
 
 				<label>E-Mail</label>
 					<INPUT TYPE="text" NAME="Mail" placeholder="prenom.nom@domaine.com" required>
 				<label>Photo</label>
 				<div id="photo">
-					<input type="file" placeholder="Choisissez un fichier"/>
+					<input type="file" placeholder="Choisissez un fichier" accept="image/*" capture/>
 				</div>
 				<label>Message</label>
 					<TEXTAREA NAME="Text" required></TEXTAREA>
